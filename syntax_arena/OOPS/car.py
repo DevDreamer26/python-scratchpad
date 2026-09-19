@@ -1,0 +1,20 @@
+class Car:
+    
+    # Class variable (static variable)
+    wheels = 4
+    
+    def __init__(self):
+        # These are instance namespace ()
+            self.mil = 10
+            self.com = "BMW"
+            
+c1 = Car()
+c2 = Car()
+
+c1.mil = 8
+
+Car.wheels =6
+
+print(c1.com,c1.mil,c1.wheels)
+print(c2.com,c2.mil,c2.wheels)
+
