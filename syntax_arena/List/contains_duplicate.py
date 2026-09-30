@@ -26,21 +26,24 @@
 
 # Output: true
 
-nums = [1, 2, 3, 1]
-
-seen = set()
-has_duplicate = False
-
-for i in nums:
-    if i in seen:
-        has_duplicate = True
-        break  # Exit early since we already found a duplicate
-    seen.add(i)
-
-print(has_duplicate)
-
+def contains_duplicates(nums):
     
+    has_Duplicate = False
+    
+    seen = set()
+    
+    
+    for num in nums:
+        if num in seen:
+            has_Duplicate = True
+            break
+        seen.add(num)
+        
+    return has_Duplicate
+
+print(contains_duplicates([1,2]))
     
 
 # Compareing length 
+# nums = [1,2,3,4,2]
 # print(len(nums) != len(set(nums)))
