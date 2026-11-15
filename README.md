@@ -17,8 +17,11 @@ Readability counts."
 
 ```text
 python-scratchpad/
-├── 📁 leetcode/        # leetcode problems
-└── 📁 syntax arena/    # Just python practice, built-in features, and language experimentation
+├── 📁 leetcode/
+└── 📁 python_core/        
+└── 📁 syntax_arena/
+
+    
 ```
 
 ---
